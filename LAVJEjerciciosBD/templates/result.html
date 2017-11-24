@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h3>The value of "l":</h3>
+    <table>
+    <tr>
+        <td>l:</td>
+        <td>{{ the_l }}</td>
+    </tr>
+    <tr>
+        <td>Formula</td>
+        <td colspan="2">
+            l**3
+        </td>
+    </tr>
+    <tr>
+        <td>v:</td>
+        <td>{{ the_result }}</td>
+    </tr>
+    </table>
+	<p><a href="/entry">Go back</a></p>
+{% endblock %}
